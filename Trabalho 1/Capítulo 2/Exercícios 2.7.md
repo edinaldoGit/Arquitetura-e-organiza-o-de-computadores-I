@@ -5,12 +5,11 @@
 #  Resolução de exercícios - 2.7 
 
 ##  Questão 1 
-A) CORRETA  
-B) INCORRETA  
-C) CORRETA  
-D) CORRETA  
-E) CORRETA  
-F) INCORRETA
+A) CORRETA.  
+B) INCORRETA, para a quebra de linha nesse caso, o certo seria colocar "0AH" onde se deseja quebrar a linha em vez de colocar "\n".  
+C) INCORRETA, quando se coloca "ADDR number" nessse caso, não será impresso o conteúdo da posição de memória, mas sim o endereço de memória da variável, o certo seria excluir o "ADDR", dessa forma seria impresso de forma correta.  
+D) CORRETA.
+E) INCORRETA, a linguagem não reconhece o "\n" como quebra de linha, para isso deveria usar "0AH" em vez de "\n".  
 
 ## Questão 2
 A) 

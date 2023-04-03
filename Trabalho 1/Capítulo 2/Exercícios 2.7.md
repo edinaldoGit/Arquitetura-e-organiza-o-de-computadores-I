@@ -12,9 +12,13 @@ D) CORRETA.
 E) INCORRETA, a linguagem não reconhece o "\n" como quebra de linha, para isso deveria usar "0AH" em vez de "\n".  
 
 ## Questão 2
-A) 
+Sabemos que a diretiva INVOKE destrói o conteúdo do registrador EAX, neste caso, quando chamamos essa diretiva para usar o printf, estamos destruindo o conteúdo de EAX que será utilizado logo em seguida. Desta forma, o que podemos fazer - como segue o exemplo abaixo - é empilhar o registrador EAX antes de chamar INVOKE e desempilhar EAX logo após, sendo assim, não perdemos o valor de EAX que seria utilizado logo em seguida. 
 ```
-.data 
-initial byte ?
+    mov num1, 5
+    mov EAX, num1
+    push EAX
+    INVOKE printf, ADDR msg1fmt, ADDR msg1, num2
+    pop EAX
+    mov num2, EAX
 ```
 B)

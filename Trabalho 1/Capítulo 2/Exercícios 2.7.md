@@ -22,5 +22,10 @@ Sabemos que a diretiva INVOKE destrói o conteúdo do registrador EAX, neste cas
     mov num2, EAX
 ```
 ## Questão 3
-![Árvore de análise sintática, primeira derivação ](questao03.png)
+![Saídas do código da questão 3](questao03.png)
+ 
+
+## Questão 4
+![Saídas do código da questão 4](questao04.png)
+ 
 

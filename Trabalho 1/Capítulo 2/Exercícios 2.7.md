@@ -21,4 +21,6 @@ Sabemos que a diretiva INVOKE destrói o conteúdo do registrador EAX, neste cas
     pop EAX
     mov num2, EAX
 ```
-B)
+## Questão 3
+
+

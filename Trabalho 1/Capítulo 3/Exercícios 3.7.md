@@ -69,6 +69,14 @@ mov m, eax
 ```
 F)
 ```
+mov eax, f 
+cdq
+idiv d 
+imul e 
+mov ebx, a 
+sub ebx, b 
+add ebx, eax
+mov q, ebx
 ```
 
 ## Questão 4

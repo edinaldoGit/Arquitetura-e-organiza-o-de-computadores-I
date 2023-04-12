@@ -59,6 +59,13 @@ mov r, eax
 ```
 E)
 ```
+mov eax, i
+sub eax, j
+mov ebx, eax
+mov eax, k 
+imul ebx
+imul n
+mov m, eax
 ```
 F)
 ```

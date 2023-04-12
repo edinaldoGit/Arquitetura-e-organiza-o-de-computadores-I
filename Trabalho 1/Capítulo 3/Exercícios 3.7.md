@@ -13,6 +13,7 @@ E) INCORRETA. Na instrução "sub", não é permitido um imediato no minuendo, o
 F) CORRETA. 
 
 ## Questão 2
+*Resposta em código no arquivo "questao4.asm".* 
 
 ## Questão 3
 *Resposta em código no arquivo "questao3.asm".*  

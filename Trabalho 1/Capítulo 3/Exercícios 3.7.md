@@ -15,17 +15,15 @@ F) CORRETA.
 ## Questão 2
 
 ## Questão 3
+*Resposta em código no arquivo "questao3.asm".*  
 
 ## Questão 4
 
 ## Questão 5
-*Resposta em código nos arquivos "questao5.asm" e "questao5.c".*
 
 ## Questão 6
-*Resposta em código nos arquivos "questao6.asm" e "questao6.c".*
 
 ## Questão 7
-*Resposta em código nos arquivos "questao7.asm" e "questao7.c".*
 
 ## Questão 8
-*Resposta em código nos arquivos "questao8.asm" e "questao8.c".*
+

@@ -5,7 +5,7 @@
 #  Resolução de exercícios - 2.7 
 
 ##  Questão 1 
-A) INCORRETA. A intrução "inc" se trata de um operador unário, ou seja, só permite um único argumento, que pode ser um registrador ou uma variável.  
+A) INCORRETA. A instrução "inc" se trata de um operador unário, ou seja, só permite um único argumento, que pode ser um registrador ou uma variável.  
 B) CORRETA.  
 C) INCORRETA. A instrução "add" não permite que os dois argumentos sejam posições de memória, pois não é viável fazer dois acessos a memória em uma mesma instrução.  
 D) INCORRETA. A instrução "idiv" não permite um imediato como argumento, apenas registradores e posições de memória(variáveis).  

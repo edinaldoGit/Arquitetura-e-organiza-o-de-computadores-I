@@ -24,7 +24,7 @@ B)
 mov eax, number
 cdq
 idiv amount
-mov result
+mov result, eax
 ```
 C)
 ```
@@ -110,11 +110,43 @@ A)
 ```
 dec i
 ```
+B)
+```
+inc k
+mov eax, k
+sub eax, m
+mov j, eax
+```
+
 C)
 ```
+inc k
+mov eax, k
+sub eax, m
+mov j, eax
 
 ```
+D)
+```
+mov eax, x
+add eax, y
+neg eax
+mov z, eax
+```
+E)
+```
+```
+F)
+```
+mov eax, y
+neg eax
+mov ebx, z
+dec ebx
+mov z, ebx
+add eax, ebx
+mov x, eax
 
+```
 ## Questão 5
 *Resposta em código no arquivo "questao5.asm".*
 

@@ -13,7 +13,33 @@ E) INCORRETA. Na instrução "sub", não é permitido um imediato no minuendo, o
 F) CORRETA. 
 
 ## Questão 2
-
+A)
+```
+mov eax,3
+imul number
+mov product,eax
+```
+B)
+```
+mov eax, number
+cdq
+idiv amount
+mov result
+```
+C)
+```
+mov eax,number
+mov ebx,2
+cdq
+idiv ebx
+mov answer,eax
+```
+D)
+```
+mov eax, 4
+sub eax, number  
+mov difference, eax
+```
 
 ## Questão 3
 A)

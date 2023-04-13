@@ -106,6 +106,14 @@ mov q, ebx
 ```
 
 ## Questão 4
+A)
+```
+dec i
+```
+C)
+```
+
+```
 
 ## Questão 5
 *Resposta em código no arquivo "questao5.asm".*

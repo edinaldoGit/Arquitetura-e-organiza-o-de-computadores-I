@@ -82,9 +82,10 @@ mov q, ebx
 ## Questão 4
 
 ## Questão 5
+*Resposta em código no arquivo "questao5.asm".*
 
 ## Questão 6
 
 ## Questão 7
-
+*Resposta em código no arquivo "questao7.asm".*
 

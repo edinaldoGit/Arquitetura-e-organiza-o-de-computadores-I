@@ -62,7 +62,7 @@ sub b, eax
 mov eax, b
 mov a, eax
 ```
-*OBS: Foi utilizado o "c" como rótulo para variável seguindo a sentença que estava no livro, no entanto, se executarmos esse código dessa maneira, utilizando "c" como rótulo, é possível que dê algum conflito com alguma palavra reservada ou algo do tipo, desse modo, em caso de uma possível execução desse trecho de código, é indicado que altere "c" para algum outro rótulo que esteja disponível.*  
+*Obs.: Foi utilizado o "c" como rótulo para variável seguindo a sentença que estava no livro, no entanto, se executarmos esse código dessa maneira, utilizando "c" como rótulo, é possível que dê algum conflito com alguma palavra reservada ou algo do tipo. Desse modo, em caso de uma possível execução desse trecho de código, é indicado que altere "c" para algum outro rótulo que esteja disponível.*  
 
 C)
 ```

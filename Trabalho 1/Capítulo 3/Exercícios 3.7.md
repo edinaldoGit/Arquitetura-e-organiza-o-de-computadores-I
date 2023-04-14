@@ -120,23 +120,22 @@ mov j, eax
 
 C)
 ```asm
-inc k
-mov eax, k
-sub eax, m
-mov j, eax
-
-```
-D)
-```asm
 mov eax, x
 add eax, y
 neg eax
 mov z, eax
 ```
-E)
+D)
 ```asm
+inc b
+mov eax, b
+inc c
+mov ebx, c
+sub eax, ebx
+mov a, eax
 ```
-F)
+*Obs.: Foi utilizado o "c" como rótulo para variável seguindo a sentença que estava no livro, no entanto, se executarmos esse código dessa maneira, utilizando "c" como rótulo, é possível que dê algum conflito com alguma palavra reservada ou algo do tipo. Desse modo, em caso de uma possível execução desse trecho de código, é indicado que altere "c" para algum outro rótulo que esteja disponível.*
+E)
 ```asm
 mov eax, y
 neg eax
@@ -147,10 +146,12 @@ add eax, ebx
 mov x, eax
 
 ```
+
 ## Questão 5
 *Resposta em código no arquivo "questao5.asm".*
 
 ## Questão 6
+*Resposta em código no arquivo "questao5.asm".*
 
 ## Questão 7
 *Resposta em código no arquivo "questao7.asm".*

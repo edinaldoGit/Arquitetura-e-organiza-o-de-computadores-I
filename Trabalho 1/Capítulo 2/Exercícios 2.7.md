@@ -22,7 +22,7 @@ Sabemos que a diretiva INVOKE destrói o conteúdo do registrador EAX, neste cas
     mov num2, EAX
 ```
 
-###OBS: As questões 3 e 4 não seguem exatamente o que é solicitado no livro, sendo inserido apenas as imagens do que é impresso na execução do programa, à pedido do professor durante a aula. 
+### OBS: As questões 3 e 4 não seguem exatamente o que é solicitado no livro, sendo inserido apenas as imagens do que é impresso na execução do programa, à pedido do professor durante a aula. 
 
 ## Questão 3
 ![Saídas do código da questão 3](questao03.png)

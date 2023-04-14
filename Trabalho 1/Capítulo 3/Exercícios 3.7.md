@@ -52,18 +52,16 @@ imul z
 add eax, ebx
 mov x, eax
 ```
-B)
+B) 
 ```asm
 mov eax, c
 cdq 
 mov ebx, 3
 idiv ebx
-sub b, eax
-mov eax, b
-mov a, eax
+mov ecx, b
+sub ecx, eax
+mov a, ecx
 ```
-*Obs.: Foi utilizado o "c" como rótulo para variável seguindo a sentença que estava no livro, no entanto, se executarmos esse código dessa maneira, utilizando "c" como rótulo, é possível que dê algum conflito com alguma palavra reservada ou algo do tipo. Desse modo, em caso de uma possível execução desse trecho de código, é indicado que altere "c" para algum outro rótulo que esteja disponível.*  
-
 C)
 ```asm
 mov eax, num3
@@ -75,7 +73,7 @@ idiv num2
 sub eax, ebx
 mov total, eax
 ```  
-D)
+D) 
 ```asm
 mov eax, s
 neg eax
@@ -117,7 +115,6 @@ mov eax, k
 sub eax, m
 mov j, eax
 ```
-
 C)
 ```asm
 mov eax, x
@@ -134,7 +131,6 @@ mov ebx, c
 sub eax, ebx
 mov a, eax
 ```
-*Obs.: Foi utilizado o "c" como rótulo para variável seguindo a sentença que estava no livro, no entanto, se executarmos esse código dessa maneira, utilizando "c" como rótulo, é possível que dê algum conflito com alguma palavra reservada ou algo do tipo. Desse modo, em caso de uma possível execução desse trecho de código, é indicado que altere "c" para algum outro rótulo que esteja disponível.*
 E)
 ```asm
 mov eax, y

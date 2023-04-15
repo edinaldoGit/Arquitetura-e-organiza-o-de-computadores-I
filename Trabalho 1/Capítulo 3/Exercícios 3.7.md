@@ -147,7 +147,7 @@ mov x, eax
 *Resposta em código no arquivo "questao5.asm".*
 
 ## Questão 6
-*Resposta em código no arquivo "questao5.asm".*
+*Resposta em código no arquivo "questao6.asm".*
 
 ## Questão 7
 *Resposta em código no arquivo "questao7.asm".*

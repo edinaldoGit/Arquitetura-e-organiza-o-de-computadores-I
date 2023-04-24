@@ -5,6 +5,9 @@
 #  Resolução de exercícios - 2.7 
 
 ##  Questão 1 
+
+> CorreçãO: 0,5
+
 A) INCORRETA. A instrução "inc" se trata de um operador unário, ou seja, só permite um único argumento, que pode ser um registrador ou uma variável.  
 B) CORRETA.  
 C) INCORRETA. A instrução "add" não permite que os dois argumentos sejam posições de memória, pois não é viável fazer dois acessos a memória em uma mesma instrução.  
@@ -13,6 +16,9 @@ E) INCORRETA. Na instrução "sub", não é permitido um imediato no minuendo, o
 F) CORRETA. 
 
 ## Questão 2
+
+> Correção: 0,5
+
 A)
 ```asm
 mov eax,3
@@ -42,6 +48,9 @@ mov difference, eax
 ```
 
 ## Questão 3
+
+> Correção: 0,3
+
 A)
 ```asm
 mov eax, x
@@ -74,6 +83,9 @@ sub eax, ebx
 mov total, eax
 ```  
 D) 
+
+> Correção: inc t precisa ocorrer depois de add eax, y.
+
 ```asm
 mov eax, s
 neg eax
@@ -92,6 +104,9 @@ imul n
 mov m, eax
 ```
 F)
+
+> Correção: não existe a variável f.
+
 ```asm
 mov eax, f 
 cdq
@@ -104,6 +119,9 @@ mov q, ebx
 ```
 
 ## Questão 4
+
+> Correção: 0,3
+
 A)
 ```asm
 dec i
@@ -123,6 +141,9 @@ neg eax
 mov z, eax
 ```
 D)
+
+> Correção: Novamente, inc c deveria ser deixado por último
+
 ```asm
 inc b
 mov eax, b
@@ -132,6 +153,9 @@ sub eax, ebx
 mov a, eax
 ```
 E)
+
+> Correção: Novamente, dec ebx (dec z) deve ser a última instrução.
+
 ```asm
 mov eax, y
 neg eax

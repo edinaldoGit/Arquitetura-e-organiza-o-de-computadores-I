@@ -4,15 +4,26 @@
 
 #  Resolução de exercícios - 1.11 
 
+> Correção 1,8
+
 ##  Questão 1 
+
+> Correção: 0,4
+
 A) CORRETA  
 B) INCORRETA  
 C) CORRETA  
+
+> Correção: vale a observação que iniciar com caracteres especiais deve ser evitado.
+
 D) CORRETA  
 E) CORRETA  
 F) INCORRETA
 
 ## Questão 2
+
+> Correção: 0,4
+
 A) 
 ```asm
 .data 
@@ -45,6 +56,9 @@ F)
 number sdword -396
 ```
 ## Questão 3
+
+> Correção: 0,3. Cadê a letra H)?
+
 A) INCORRETA, a instrução 'move' não é reconhecida como uma instrução do assembly.    
 B) INCORRETA, não é permitido mover o conteúdo de uma posição de memória para outra posição de memória, pois se tornaria um processo muito lento fazer dois acessos à memória em uma instrução.  
 C) CORRETA.  
@@ -54,6 +68,9 @@ F) CORRETA.
 G) INCORRETO, é sintaticamente incorreto utilizar o '-' para negar o conteúdo de um registrador.
 
 ## Questão 4
+
+> Correção: 0,4
+
 A)
 ```asm
 mov i, 1 
@@ -90,6 +107,9 @@ mov b, EAX
 ```
 
 ## Questão 5
+
+> Correção: 0,3. Aqui também está faltando uma letra.
+
 A)
 ```asm
 mov a, 'B'

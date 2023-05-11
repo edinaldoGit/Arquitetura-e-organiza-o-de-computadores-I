@@ -17,12 +17,12 @@ D) INCORRETA - não é permitido usar o 'cmp' passando como parâmetros duas pos
 
 A)
 ```asm
-if01:   cmp w, 1 
-        jne endif01
-        cmp x, 2
-        jne endif01
-then01: dec y
-endif01: nop
+if01:      cmp w, 1 
+           jne endif01
+           cmp x, 2
+           jne endif01
+then01:    dec y
+endif01:   nop
 ```
 
 B) 

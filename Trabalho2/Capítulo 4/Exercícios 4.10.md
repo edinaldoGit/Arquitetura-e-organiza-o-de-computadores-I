@@ -8,8 +8,7 @@
 A) INCORRETA - assim como em C, é incorreto uilizar apenas '=' para comparação entre dois valores, o certo seria '=='.  
 B) INCORRETA - não é certo utilizar o 'then' após a comparação por diretivas.  
 C) CORRETA - embora não usual, a sentença está sintaticamente CORRETA.  
-D)
-E)
-F)
-G)
-H)
+D) INCORRETA - não é permitido usar o 'cmp' passando como parâmetros duas posições de memória.  
+
+## Questão 2
+

@@ -12,3 +12,30 @@ D) INCORRETA - não é permitido usar o 'cmp' passando como parâmetros duas pos
 
 ## Questão 2
 
+
+## Questão 3
+
+A)
+```asm
+if01:   cmp w, 1 
+        jne endif01
+        cmp x, 2
+        jne endif01
+then01: dec y
+endif01: nop
+```
+
+B) 
+```asm
+
+```
+
+C) 
+```asm
+
+```
+
+D)
+```asm
+
+```

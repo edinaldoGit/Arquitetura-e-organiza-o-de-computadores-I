@@ -25,14 +25,28 @@ then01:    dec y
 endif01:   nop
 ```
 
-B) 
-```asm
+B) if (!(num > 0) || !(num <= 3))  
+      count=count-2;
 
+```asm
+if01:      cmp num, 0
+           jle then01
+           cmp num, 3
+           jle endif01
+then01:    sub count, 2
+endif01:   nop
 ```
 
 C) 
 ```asm
-
+if01:      cmp w, 1
+           je and01
+           cmp x, 2
+           jne endif01
+and01:     cmp y, 3
+           jne endif01
+then01:    inc z
+endif01:   nop
 ```
 
 D)

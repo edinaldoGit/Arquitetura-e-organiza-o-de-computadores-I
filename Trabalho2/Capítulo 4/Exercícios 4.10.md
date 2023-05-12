@@ -80,7 +80,27 @@ endif01:    nop
 ```
 
 ## Questão 4
-> Tiago 
+A) Por diretivas MASM:
+```asm
+mov eax, a
+mov ebx, b
+mov ecx, c
+.if eax > b
+    dec a 
+.elseif ebx >= c 
+    sub b, 2
+.elseif ecx > d 
+    add ecx, d 
+    mov c, ecx 
+.else 
+    mov ebx, 2
+    mov eax, d
+    cdq
+    idiv 2
+    mov d, eax
+.endif
+```
+B) 
 
 ## Questão 5
 ```asm

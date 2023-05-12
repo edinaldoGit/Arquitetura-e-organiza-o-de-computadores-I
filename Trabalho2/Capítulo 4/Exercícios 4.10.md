@@ -11,7 +11,7 @@ C) CORRETA - embora não usual, a sentença está sintaticamente CORRETA.
 D) INCORRETA - não é permitido usar o 'cmp' passando como parâmetros duas posições de memória.  
 
 ## Questão 2
-
+> Tiago 
 
 ## Questão 3
 
@@ -60,3 +60,30 @@ if01:       cmp d, 4
 then01:     dec e
 endif01:    nop
 ```
+
+## Questão 4
+> Tiago 
+
+## Questão 5
+```asm
+switch01:       cmp number, 0
+                je case0
+                cmp number, 1
+                je case1
+                cmp number, 2
+                je case2
+                cmp number, 3
+                je case3
+                jmp endswitch01
+case0:       
+case1:          add count, 2
+                jmp endswitch01         
+case2:   
+case3:          sub count, 2
+                jmp endswitch01    
+endswitch01:    nop
+```
+
+## Questão 6
+
+> Tiago

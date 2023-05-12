@@ -149,4 +149,4 @@ endswitch01:    nop
 
 ## Questão 6
 
-> Tiago
+* Resposta em código nos arquivos 'questao6.asm' e 'questao6.c'.* 

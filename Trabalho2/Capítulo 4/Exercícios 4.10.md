@@ -25,9 +25,7 @@ then01:    dec y
 endif01:   nop
 ```
 
-B) if (!(num > 0) || !(num <= 3))  
-      count=count-2;
-
+B) 
 ```asm
 if01:      cmp num, 0
            jle then01
@@ -51,5 +49,14 @@ endif01:   nop
 
 D)
 ```asm
-
+if01:       cmp d, 4
+            jle then01
+            cmp a, 1
+            je then01
+            cmp b, 2
+            jne endif01
+            cmp c, 3
+            jle endif01
+then01:     dec e
+endif01:    nop
 ```

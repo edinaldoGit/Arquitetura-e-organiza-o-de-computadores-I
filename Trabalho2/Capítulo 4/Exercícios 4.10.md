@@ -80,7 +80,7 @@ endif01:    nop
 ```
 
 ## Questão 4
-A) Por diretivas MASM:
+A) Através de diretivas MASM:
 ```asm
 mov eax, a
 mov ebx, b
@@ -100,7 +100,32 @@ mov ecx, c
     mov d, eax
 .endif
 ```
-B) 
+B) Através de comparadores, jumps e rótulos: 
+```asm
+mov eax, a
+mov ebx, b 
+mov ecx, c 
+if01:       cmp eax, b 
+            jle if02
+then01:     dec a        
+            jmp endif01
+if02:       cmp ebx, c 
+            jl if03
+then02:     sub b, 2
+            jmp endif01
+if03:       cmp ecx, d
+            jle else01
+then03:     add ecx, d 
+            mov c, ecx
+            jmp endif01
+else01:     mov ebx, 2
+            mov eax, d 
+            cdq
+            idiv ebx 
+            mov d, eax
+endif01:    nop  
+
+```
 
 ## Questão 5
 ```asm

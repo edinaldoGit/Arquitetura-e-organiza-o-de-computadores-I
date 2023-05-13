@@ -26,14 +26,26 @@ endif01:    nop
 ```
 
 ## Questão 3
-A)  
-B)  
-C)  
- 
-> Edinaldo
+A) **Três** vezes.  
+B) **Uma única** vez.  
+C) **Nenhuma** vez.  
 
 ## Questão 4
-> Tiago 
+```asm
+mov ans, 0
+if01:       cmp y, 0
+            je endif01   
+then01:     mov ecx, 1
+            repeat01:       mov eax, ans
+                            add eax, x
+                            mov ans, eax
+                            inc ecx
+                            cmp ecx, y
+                            jle repeat01
+            endrpt01: nop
+            mov i, ecx
+endif01:    nop
+```
 
 ## Questão 5
 A)  

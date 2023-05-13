@@ -1,16 +1,29 @@
 #  Resolução de exercícios - 5.8 
 
 ##  Questão 1
-A)  
-B)  
-C)  
-D)  
-E)  
-
-> Edinaldo
+A) INCORRETA - A estrutura '.for (...) .endfor' não existe no MASM.  
+B) INCORRETA - A diretiva (while) está incompleta, em vez de 'while' apenas, deveria ser '.while'.  
+C) CORRETA.  
+D) INCORRETA - O Registrador EDX nesse caso não pode ser utilizado como iterador, o certo seria utilizar ECX da seguinte forma: '.untilcxz' e a iteração seria feita de acordo com o valor em ECX.   
+E) INCORRETA - A estrutura '.do (...) .while (...)' não existe no MASM como no C, o equivalente a isso seria '.repeat (...) .until (...)'. 
 
 ## Questão 2
- > Tiago
+```asm
+mov ans, 0 
+if01:       cmp x, 0
+            je endif01
+then01:     mov ecx, 1
+            while01:    cmp ecx, y
+                        jg endw01
+                        mov eax, ans 
+                        add eax, x
+                        mov ans, eax 
+                        inc ecx  
+                        jmp while01     
+            endw01:     nop
+            mov i, ecx 
+endif01:    nop 
+```
 
 ## Questão 3
 A)  

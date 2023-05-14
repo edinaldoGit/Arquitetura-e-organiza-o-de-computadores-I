@@ -48,9 +48,30 @@ endif01:    nop
 ```
 
 ## Questão 5
-A)  
-B)  
-C)  
+A) .while: 
+```asm 
+mov eax, dividendo
+mov ebx, divisor
+mov edx, eax
+mov eax, 0
+.while  edx >= ebx
+        sub edx, ebx
+        inc eax 
+.endw
+```
+B)  .repeat - .until : 
+```asm
+mov eax, dividendo
+mov ebx, divisor
+mov edx, eax
+mov eax, 0
+.repeat 
+            sub edx, ebx
+            inc eax
+.until      edx < ebx
+```
+
+C) .repeat - .repeatcxz 
 
 > Edinaldo
 

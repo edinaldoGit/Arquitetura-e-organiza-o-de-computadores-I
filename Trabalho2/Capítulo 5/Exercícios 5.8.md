@@ -85,8 +85,30 @@ mov eax, 0
 > Tiago
 
 ## Questão 7
-> Edinaldo
+- Usando diretiva '.repeat - .until':
+```asm
+mov i, 10
+mov sum, 0          
+.repeat   
+        mov eax, sum
+        add eax, i 
+        sub i, 2 
+        mov sum, eax 
+.until i <= 0
+ ```
+- Usando comparadores, rótulos e saltos condicionais/incondicionais:
+```asm
+mov i, 10
+mov sum, 0
 
+repeat01: 
+            mov eax, sum 
+            add eax, i
+            mov sum, eax 
+            sub i, 2
+endrpt01:   cmp i, 0
+            jg repeat01
+```
 ## Questão 8
 > Tiago
 

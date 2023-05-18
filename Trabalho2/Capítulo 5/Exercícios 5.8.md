@@ -62,9 +62,9 @@ B)  .repeat - .until:
 mov edx, eax
 mov eax, 0
 .repeat 
-            sub edx, ebx
-            inc eax
-.until      edx < ebx
+         sub edx, ebx
+         inc eax
+.until   edx < ebx
 ```
 
 C) .repeat - .repeatcxz: 

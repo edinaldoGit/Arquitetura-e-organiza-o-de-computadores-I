@@ -111,7 +111,19 @@ repeat01:
 endrpt01:   nop      
 ```
 ## Questão 8
-> Tiago
+```asm
+mov ecx, 2
+for01:  nop
+        mov tempecx, ecx
+        mov ecx, 3
+        for02:  nop
+            ; body of nested loop 
+            loop for02
+        endfor02:   nop
+        mov ecx, tempecx
+        loop for01
+endfor01: nop
+```
 
 ## Questão 9
 A)  

@@ -65,7 +65,7 @@ main        proc
             INVOKE printf, ADDR fmt_str3, ADDR msg2, n, ADDR msg3, result
 
             ;--------------------------------------------------------------------------------------------
-            ; Implementação com '.repeat - .untilcx':
+            ; Implementação com '.repeat - .untilcxz':
             INVOKE printf, ADDR fmt_str1, ADDR msg4
             INVOKE printf, ADDR fmt_str4, ADDR msg7
             INVOKE printf, ADDR fmt_str1, ADDR msg4

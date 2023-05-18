@@ -61,10 +61,12 @@ B)  .repeat - .until:
 ```asm
 mov edx, eax
 mov eax, 0
-.repeat 
-         sub edx, ebx
-         inc eax
-.until   edx < ebx
+.if edx >= ebx
+    .repeat 
+            sub edx, ebx
+            inc eax
+    .until  edx < ebx
+.endif
 ```
 
 C) .repeat - .repeatcxz: 

@@ -128,11 +128,9 @@ endfor01: nop
 ```
 
 ## Questão 9
-A)  
-B)  
-C)  
-
-> Edinaldo 
+A)  Implementação do item no arquivo 'questao9.asm'
+B)  Implementação do item no arquivo 'questao9.asm'
+C)  Implementação do item no arquivo 'questao9.asm'
 
 ## Questão 10
 A)  

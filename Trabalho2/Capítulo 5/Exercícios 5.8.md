@@ -128,9 +128,7 @@ endfor01: nop
 ```
 
 ## Questão 9
-A)  Implementação do item no arquivo 'questao9.asm'.  
-B)  Implementação do item no arquivo 'questao9.asm'.  
-C)  Implementação do item no arquivo 'questao9.asm'.  
+*Implementação dos itens: A, B, C no programa 'questao9.asm'.*  
 
 ## Questão 10
 A)  

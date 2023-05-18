@@ -106,8 +106,9 @@ repeat01:
             add eax, i
             mov sum, eax 
             sub i, 2
-endrpt01:   cmp i, 0
+            cmp i, 0
             jg repeat01
+endrpt01:   nop      
 ```
 ## Questão 8
 > Tiago

@@ -57,7 +57,7 @@ mov eax, 0
         inc eax 
 .endw
 ```
-B)  .repeat - .until : 
+B)  .repeat - .until: 
 ```asm
 mov edx, eax
 mov eax, 0
@@ -67,7 +67,7 @@ mov eax, 0
 .until      edx < ebx
 ```
 
-C) .repeat - .repeatcxz 
+C) .repeat - .repeatcxz: 
 ```asm
 mov edx, eax
 mov ecx, eax 

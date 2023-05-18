@@ -81,8 +81,6 @@ mov eax, 0
 .untilcxz  
 ```
 
-> Edinaldo
-
 ## Questão 6
 > Tiago
 

@@ -50,8 +50,6 @@ endif01:    nop
 ## Questão 5
 A) .while: 
 ```asm 
-mov eax, dividendo
-mov ebx, divisor
 mov edx, eax
 mov eax, 0
 .while  edx >= ebx
@@ -61,8 +59,6 @@ mov eax, 0
 ```
 B)  .repeat - .until : 
 ```asm
-mov eax, dividendo
-mov ebx, divisor
 mov edx, eax
 mov eax, 0
 .repeat 
@@ -72,6 +68,18 @@ mov eax, 0
 ```
 
 C) .repeat - .repeatcxz 
+```asm
+mov edx, eax
+mov ecx, eax 
+mov eax, 0
+
+.repeat 
+    .if edx >= ebx
+            sub edx, ebx 
+            inc eax
+    .endif
+.untilcxz  
+```
 
 > Edinaldo
 

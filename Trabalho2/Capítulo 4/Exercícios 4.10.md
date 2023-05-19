@@ -104,10 +104,31 @@ mov eax, a
         dec a
 .endif
 ```
-B) Através de comparadores, jumps e rótulos: 
-```asm
- 
+B) Através de comparadores, rótulos e saltos condicionais/incondicionais:
 
+```asm
+mov eax, a
+if01:   cmp eax, b 
+        jg else01
+then01: mov eax, b
+        if02:   cmp eax, c_
+                jge else02
+        then02: mov eax, c_
+                if03:   cmp eax, d
+                        jg else03
+                then03: mov ebx, 2
+                        mov eax, d
+                        cdq
+                        idiv ebx
+                        mov d, eax
+                        jmp endif01
+                else03: add eax, d
+                        mov c_, eax
+                        jmp endif01
+        else02: sub b, 2
+                jmp endif01
+else01: dec a
+endif01: nop
 ```
 
 ## Questão 5

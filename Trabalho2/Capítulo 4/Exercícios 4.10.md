@@ -82,48 +82,31 @@ endif01:    nop
 ## Questão 4
 A) Através de diretivas MASM:
 ```asm
-mov eax, a
-mov ebx, b
-mov ecx, c
-.if eax > b
-    dec a 
-.elseif ebx >= c 
-    sub b, 2
-.elseif ecx > d 
-    add ecx, d 
-    mov c, ecx 
+mov eax, a 
+.if eax <= b
+        mov eax, b
+        .if eax < c_ 
+                mov eax, c_
+                .if eax <= d 
+                        mov ebx, 2
+                        mov eax, d
+                        cdq
+                        idiv ebx
+                        mov d, eax
+                .else 
+                        add eax, d
+                        mov c_, eax
+                .endif
+        .else 
+                sub b, 2
+        .endif
 .else 
-    mov ebx, 2
-    mov eax, d
-    cdq
-    idiv 2
-    mov d, eax
+        dec a
 .endif
 ```
 B) Através de comparadores, jumps e rótulos: 
 ```asm
-mov eax, a
-mov ebx, b 
-mov ecx, c 
-if01:       cmp eax, b 
-            jle if02
-then01:     dec a        
-            jmp endif01
-if02:       cmp ebx, c 
-            jl if03
-then02:     sub b, 2
-            jmp endif01
-if03:       cmp ecx, d
-            jle else01
-then03:     add ecx, d 
-            mov c, ecx
-            jmp endif01
-else01:     mov ebx, 2
-            mov eax, d 
-            cdq
-            idiv ebx 
-            mov d, eax
-endif01:    nop  
+ 
 
 ```
 

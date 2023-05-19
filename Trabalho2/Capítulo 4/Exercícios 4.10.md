@@ -85,8 +85,8 @@ A) Através de diretivas MASM:
 mov eax, a 
 .if eax <= b
         mov eax, b
-        .if eax < c_ 
-                mov eax, c_
+        .if eax < c 
+                mov eax, c
                 .if eax <= d 
                         mov ebx, 2
                         mov eax, d

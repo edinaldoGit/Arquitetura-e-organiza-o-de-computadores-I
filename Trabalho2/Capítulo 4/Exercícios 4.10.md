@@ -95,7 +95,7 @@ mov eax, a
                         mov d, eax
                 .else 
                         add eax, d
-                        mov c_, eax
+                        mov c, eax
                 .endif
         .else 
                 sub b, 2

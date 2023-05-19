@@ -131,8 +131,4 @@ endfor01: nop
 *Implementação dos itens: A, B, C no programa 'questao9.asm'.*  
 
 ## Questão 10
-A)  
-B)  
-C)  
-
-> Tiago 
+*Implementação dos itens: A, B, C no programa 'questao10.asm'.*

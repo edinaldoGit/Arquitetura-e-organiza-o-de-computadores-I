@@ -12,7 +12,7 @@ H) INCORRETA - Não existe a instrução 'lol' no MASM.
 I) INCORRETA - Não existe a instrução 'shift' no MASM, o equivalente a isso seria usar 'shl' ou 'shr' de acordo com a necessidade. Além disso, ao usar essas duas instruções, o imediato(2) vem sempre depois do registrador ou posição de memória. Ex: 'shl n, 2'.
 
 ## Questão 2
-
+*Resposta em código no aquivo 'questao2.asm'*
 
 ## Questão 3
 

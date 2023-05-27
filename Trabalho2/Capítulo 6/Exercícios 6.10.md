@@ -15,6 +15,7 @@ I) INCORRETA - Não existe a instrução 'shift' no MASM, o equivalente a isso s
 *Resposta em código no aquivo 'questao2.asm'*
 
 ## Questão 3
+*Resposta em código no aquivo 'questao3.asm'*
 
 ## Questão 4
 

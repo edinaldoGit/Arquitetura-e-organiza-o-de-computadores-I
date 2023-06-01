@@ -1,10 +1,10 @@
 #  Resolução de exercícios - 7.10 
 
 ##  Questão 1
-A) INCORRETA - Em vez de 'return' utiliza-se 'ret'.  
-B) CORRETA. 
-C) INCORRETA - Nesse caso não se usa o '.' (ponto) antes da diretiva 'if'. 
-D) CORRETA.    
+A) INCORRETA - Em vez de 'return' utiliza-se 'ret'.    
+B) CORRETA.  
+C) INCORRETA - Nesse caso não se usa o '.' (ponto) antes da diretiva 'if'.   
+D) CORRETA.      
 E) CORRETA.   
 F) CORRETA.  
 G) CORRETA.  

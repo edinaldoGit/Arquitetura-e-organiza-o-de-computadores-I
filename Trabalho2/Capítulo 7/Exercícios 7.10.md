@@ -8,7 +8,7 @@ D) CORRETA.
 E) CORRETA.   
 F) CORRETA.  
 G) CORRETA.  
-H) CORRETA.
+H) CORRETA.  
 I) INCORRETA - Não existe a diretiva 'ifne' para Macros. 
 
 ## Questão 2

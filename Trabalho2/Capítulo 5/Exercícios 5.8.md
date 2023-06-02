@@ -96,7 +96,7 @@ mov ecx, n
             mov sum, eax
 .untilcxz 
 ```
-O problema dessa tradução literal ao receber 0 em 'n' e consequentemente ECX(iterador) receber n = 0, seria que o programa entraria em um loop infinito, pois assim que inicia o laço, ECX está em 0, essa instrução específica decrementa ECX em 1 a cada iteração, logo, sendo ECX = 0:  0 - 1 = -1, já que a condição de parada da estrutura '.repeat - .untilcxz' é ECX chegar em 0, nesse caso o laço nunca pararia, pois ECX tenderia a '-∞'.
+O problema dessa tradução literal ao receber 0 em 'n' e consequentemente ECX(iterador) receber n = 0, seria que o programa entraria em um loop infinito, pois assim que inicia o laço, ECX está em 0, essa instrução específica decrementa ECX em 1 a cada iteração, logo, sendo ECX = 0:  0 - 1 = -1, já que a condição de parada da estrutura '.repeat - .untilcxz' é ECX chegar em 0, nesse caso o laço nunca pararia, pois ECX tende a '-∞'.
 
 ## Questão 7
 - Usando diretiva '.repeat - .until':

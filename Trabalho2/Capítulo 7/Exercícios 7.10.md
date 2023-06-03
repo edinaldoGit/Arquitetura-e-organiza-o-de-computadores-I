@@ -22,3 +22,9 @@ I) INCORRETA - Não existe a diretiva 'ifne' para Macros.
 
 ## Questão 5
 *Resposta em código no aquivo 'questao5.asm'*
+
+## Questão 6
+*Resposta em código no aquivo 'questao6.asm'*
+
+## Questão 7
+*Resposta em código no aquivo 'questao7.asm'*

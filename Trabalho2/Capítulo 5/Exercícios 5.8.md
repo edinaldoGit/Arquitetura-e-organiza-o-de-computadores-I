@@ -112,7 +112,7 @@ Uma forma de resolver esse problema está implementado no trecho de código abai
             .untilcxz 
   .endif
 ```
-No código em C, se n for 0, o corpo do laço não executará nenhuma vez, no entanto em MASM, a estrutura permite que pelo menos uma vez o corpo do laço seja executada. Sendo assim, colocamos uma verificação se 'n' é maior que '0' antes de entrar no laço tirando as possibilidades de um loop infinito. 
+No código em C, se n for 0, o corpo do laço não executará nenhuma vez, no entanto em MASM, a estrutura permite que pelo menos uma vez o corpo do laço seja executada. Sendo assim, colocamos uma verificação se 'n' - no caso: ECX - é maior que '0' antes de entrar no laço tirando as possibilidades de um loop infinito. 
 
 ## Questão 7
 - Usando diretiva '.repeat - .until':

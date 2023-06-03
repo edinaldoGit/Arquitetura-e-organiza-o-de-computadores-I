@@ -11,9 +11,7 @@ fmt_int     byte     "%d", 0
                                    
 fmt_str    byte     "%s%d", 0AH, 0    
 
-msg1        byte     " - Testando multiplicacao: ", 0
-
-oper        dword    ?    
+msg1        byte     " - Testando multiplicacao: ", 0 
 
             .code
 MULTACC     macro   operand

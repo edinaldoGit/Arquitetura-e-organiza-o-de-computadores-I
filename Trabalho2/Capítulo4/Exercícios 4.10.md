@@ -1,12 +1,20 @@
 #  Resolução de exercícios - 4.10 
 
+> Correção: 1,5
+
 ##  Questão 1
+
+> Correção: 0,3
+
 A) INCORRETA - assim como em C, é incorreto utilizar apenas '=' para comparação entre dois valores, o certo seria '=='.  
 B) INCORRETA - não é certo utilizar o 'then' após a comparação por diretivas.  
 C) CORRETA - embora não usual, a sentença está sintaticamente CORRETA.  
 D) INCORRETA - não é permitido usar o 'cmp' passando como parâmetros duas posições de memória.  
 
 ## Questão 2
+
+> Correção: 0,3
+
 ```asm
 mov eax, a
 .if eax > b
@@ -32,6 +40,8 @@ mov eax, a
 ```
 
 ## Questão 3
+
+> Correção: 0,3
 
 A)
 ```asm
@@ -66,6 +76,9 @@ endif01:   nop
 ```
 
 D)
+
+> Correção: && tem prioridade maior que ||.
+
 ```asm
 if01:       cmp d, 4
             jle then01
@@ -80,6 +93,9 @@ endif01:    nop
 ```
 
 ## Questão 4
+
+> Correção: 0,3
+
 A) Através de diretivas MASM:
 ```asm
 mov eax, a 
@@ -132,6 +148,9 @@ endif01: nop
 ```
 
 ## Questão 5
+
+> Correção: 0,3
+
 ```asm
 switch01:       cmp number, 0
                 je case0

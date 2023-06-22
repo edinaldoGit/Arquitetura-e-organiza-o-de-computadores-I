@@ -1,6 +1,9 @@
 #  Resolução de exercícios - 5.8 
 
 ##  Questão 1
+
+> Correção: 0,1
+
 A) INCORRETA - A estrutura '.for - .endfor' não existe no MASM.  
 B) INCORRETA - A diretiva (while) está incompleta, em vez de 'while' apenas, deveria ser '.while'.  
 C) CORRETA.  
@@ -8,6 +11,9 @@ D) INCORRETA - O Registrador EDX nesse caso não pode ser utilizado como iterado
 E) INCORRETA - A estrutura '.do - .while' não existe no MASM como no C, o equivalente a isso seria '.repeat - .until'. 
 
 ## Questão 2
+
+> Correção: 0,1
+
 ```asm
 mov ans, 0 
 if01:       cmp x, 0
@@ -26,11 +32,17 @@ endif01:    nop
 ```
 
 ## Questão 3
+
+> Correção: 0,1
+
 A) **Três** vezes.  
 B) **Uma única** vez.  
 C) **Nenhuma** vez.  
 
 ## Questão 4
+
+> Correção: 0,1
+
 ```asm
 mov ans, 0
 if01:       cmp y, 0
@@ -48,6 +60,9 @@ endif01:    nop
 ```
 
 ## Questão 5
+
+> Correção: 0,1
+
 A) .while: 
 ```asm 
 mov edx, eax
@@ -84,6 +99,9 @@ mov eax, 0
 ```
 
 ## Questão 6
+
+> Correção: 0,1
+
 Em uma tradução literal do segmento de código em questão, teriamos:
 ```asm
 mov sum, 0
@@ -115,6 +133,9 @@ Uma forma de resolver esse problema está implementado no trecho de código abai
 No código em C, se n for 0, o corpo do laço não executará nenhuma vez, no entanto em MASM, a estrutura permite que pelo menos uma vez o corpo do laço seja executada. Sendo assim, colocamos uma verificação se ECX(que recebe 'n') é maior que '0' antes de entrar no laço tirando as possibilidades de um loop infinito. 
 
 ## Questão 7
+
+> Correção: 0,2
+
 - Usando diretiva '.repeat - .until':
 ```asm
 mov i, 10
@@ -141,6 +162,9 @@ repeat01:
 endrpt01:   nop      
 ```
 ## Questão 8
+
+> Correção: 0,2
+
 ```asm
 mov ecx, 2
 for01:  nop

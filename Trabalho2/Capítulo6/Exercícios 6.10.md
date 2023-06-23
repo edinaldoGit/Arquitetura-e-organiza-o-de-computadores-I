@@ -1,6 +1,9 @@
 #  Resolução de exercícios - 6.10 
 
 ##  Questão 1
+
+> Correção: 0,4.  Não existe o registrador exc na letra G).
+
 A) CORRETA.  
 B) CORRETA.  
 C) INCORRETA - 'rotate' não é uma instrução MASM, pra isso o certo seria utilizar 'rol' ou 'ror'.  

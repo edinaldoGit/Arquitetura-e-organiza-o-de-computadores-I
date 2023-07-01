@@ -7,5 +7,5 @@
 | Trabalhos     | Nota          |
 | ------------- | ------------- |
 | Trabalho 1    | 9,3           |
-| Trabalho 2    |               |
+| Trabalho 2    | 9,6           |
 | Trabalho 3    |               |

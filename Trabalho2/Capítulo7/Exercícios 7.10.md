@@ -1,5 +1,7 @@
 #  Resolução de exercícios - 7.10 
 
+> Correção: 0,0. Não existe a diretiva de montagem condicional _elseif_.
+
 ##  Questão 1
 A) INCORRETA - Em vez de 'return' utiliza-se 'ret'.    
 B) CORRETA.  

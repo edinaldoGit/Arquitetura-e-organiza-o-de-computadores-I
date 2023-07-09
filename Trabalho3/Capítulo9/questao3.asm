@@ -14,9 +14,9 @@ msg1fmt     byte "%s %s", 0Ah, 0
 msg2fmt     byte "%s",0Ah, 0
 msg3fmt     byte "%d",0Ah,0
 msg1        byte "Palindromo. ",0
-msg2        byte " Nao Palindromo. ",0
+msg2        byte "NPalindromo. ",0
 
-string      byte "2222222222 araraarara 1125486987 1235689745 2012369875 12345689+9 2012536987 2102365897 8888888888 202252202", 0
+string      byte "2222222222 araraarara 1125486987 1235689745 2012369875 12345689+9 2012536987 2102365897 8888888888 2022522029", 0
 
 t           byte "123456789", 0
 e           sdword 10

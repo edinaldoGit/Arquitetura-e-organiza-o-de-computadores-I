@@ -40,7 +40,12 @@ mov z[ebx], eax
 ```
 
 ## Questão 4
-> Edinaldo
+A) 5.  
+B) 20. 
+C) 10. 
+D) 40.
+E) 3.
+F) 6.
 
 ## Questão 5
 > Tiago

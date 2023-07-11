@@ -19,7 +19,25 @@ G) No final do segmento: EAX = 12.
 H) No final do segmento: EAX = 14.  
 
 ## Questão 3
-> Tiago
+A) 
+```asm
+mov num+0, 1
+```  
+B)
+```asm
+mov eax, x+8
+mov x+4, eax
+```
+C)
+```asm
+mov eax, num[ebx]
+mov num[ebx+4], eax 
+```
+D)]
+```asm
+mov eax, z[ecx]
+mov z[ebx], eax
+```
 
 ## Questão 4
 > Edinaldo

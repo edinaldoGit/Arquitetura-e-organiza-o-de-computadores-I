@@ -3,10 +3,10 @@
 ##  Questão 1
 A) CORRETA.  
 B) CORRETA.
-C) CORRETA.  
-D) CORRETA.
-E) CORRETA. 
-F) INCORRETA - Pois esses registradores são utilizados como ponteiros para locais de memória, e como sabemos movimentações de memória para memória não são permitidas. 
+C) CORRETA.    
+D) CORRETA.  
+E) CORRETA.   
+F) INCORRETA - Pois esses registradores são utilizados como ponteiros para locais de memória, e como sabemos movimentações de memória para memória não são permitidas.   
 
 ## Questão 2
 > Edinaldo

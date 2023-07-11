@@ -48,7 +48,7 @@ E) 3.
 F) 6.  
 
 ## Questão 5
-*Resposta em código no arquivo "questao5c.c" e "questao5.asm".*
+*Resposta em código nos arquivos "questao5c.c" e "questao5.asm".*
 
 ## Questão 6
 > Edinaldo

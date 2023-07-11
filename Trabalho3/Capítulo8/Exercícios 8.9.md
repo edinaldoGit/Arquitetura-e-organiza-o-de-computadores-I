@@ -2,7 +2,7 @@
 
 ##  Questão 1
 A) CORRETA.  
-B) CORRETA.
+B) CORRETA.  
 C) CORRETA.    
 D) CORRETA.  
 E) CORRETA.   

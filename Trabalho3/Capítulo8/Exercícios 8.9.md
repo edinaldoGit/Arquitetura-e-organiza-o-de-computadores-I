@@ -51,5 +51,5 @@ F) 6.
 *Resposta em código nos arquivos "questao5c.c" e "questao5.asm".*
 
 ## Questão 6
-*Resposta em código nos arquivos "q6_C_simplified.c", "q6_C_modified.c", "q6_Asm_simplified.asm e "q6_Asm_modified.asm".*
+*Resposta em código nos arquivos "questao6_simp_c.c", "questao6_mod_c.c", "questao6_simp.asm" e "questao6_mod.asm".*
 

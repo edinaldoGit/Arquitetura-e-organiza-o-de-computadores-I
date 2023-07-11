@@ -33,7 +33,7 @@ C)
 mov eax, num[ebx]
 mov num[ebx+4], eax 
 ```
-D)]
+D)
 ```asm
 mov eax, z[ecx]
 mov z[ebx], eax

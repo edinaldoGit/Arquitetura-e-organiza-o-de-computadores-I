@@ -1,6 +1,9 @@
 #  Resolução de exercícios - 8.9 
 
 ##  Questão 1
+
+> Correção: 0,5
+
 A) CORRETA.  
 B) CORRETA.  
 C) CORRETA.    
@@ -9,6 +12,9 @@ E) CORRETA.
 F) INCORRETA - Pois esses registradores são utilizados como ponteiros para locais de memória e, como sabemos, movimentações de memória para memória não são permitidas.   
 
 ## Questão 2
+
+> Correção: 0,5
+
 A) No final do segmento: EAX = 5.    
 B) No final do segmento: EAX = 200.    
 C) No final do segmento: EAX = 200.  
@@ -19,6 +25,9 @@ G) No final do segmento: EAX = 12.
 H) No final do segmento: EAX = 14.  
 
 ## Questão 3
+
+> Correção: 0,2
+
 A) 
 ```asm
 mov num+0, 1
@@ -28,6 +37,8 @@ B)
 mov eax, x+8
 mov x+4, eax
 ```
+> Correção: nos itens abaixo, quais os valores iniciais de _ebx_ e _ecx_?
+
 C)
 ```asm
 mov eax, num[ebx]
@@ -40,6 +51,9 @@ mov z[ebx], eax
 ```
 
 ## Questão 4
+
+> Correção: 0,5
+
 A) 5.  
 B) 20.   
 C) 10.   

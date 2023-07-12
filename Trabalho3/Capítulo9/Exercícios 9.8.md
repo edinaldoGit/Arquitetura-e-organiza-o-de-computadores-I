@@ -1,4 +1,4 @@
-#  Resolução de exercícios - 8.9 
+#  Resolução de exercícios - 9.8
 
 ##  Questão 1
 

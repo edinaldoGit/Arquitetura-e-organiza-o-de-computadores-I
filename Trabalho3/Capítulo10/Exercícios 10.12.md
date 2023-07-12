@@ -4,9 +4,7 @@
 A)   
 B)   
 C)   
-D)    
-E)   
-F)    
+D)       
 
 ## Questão 2
 

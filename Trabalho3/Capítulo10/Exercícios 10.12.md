@@ -83,4 +83,8 @@ fadd
 fstp data
 ```
 
+## Questão 3 ) 
+*Não era pra fazer*
+
+## Questão 4) 
 

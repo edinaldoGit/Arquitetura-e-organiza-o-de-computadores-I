@@ -21,7 +21,6 @@ i           dword   ?
             .code
 main        proc
             mov ecx, n 
-            lea esi, array+0
             mov ebx, 0
             mov i, 1
             .repeat 

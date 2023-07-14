@@ -2,6 +2,8 @@
 
 ##  Questão 1
 
+> Correção: 0,3
+
 A) INCORRETA - Em vez de 'movesb' o certo seria 'movsb'.  
 B) CORRETA.    
 C) CORRETA.    
@@ -10,6 +12,9 @@ E) INCORRETA - Em vez de 'rept strsb' o certo seria 'rep stosb'.
 F) INCORRETA - Em vez de 'loadsb' o certo seria 'lodsb'.      
 
 ## Questão 2
+
+> Correção: 0,3 . Na letra B, _esi_ é 104. 
+
 A) 
 ```
 ECX = 2, ESI = indefinido, EDI = 103, AL = "c".

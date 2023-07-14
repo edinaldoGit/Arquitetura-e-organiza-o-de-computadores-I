@@ -1,3 +1,4 @@
+; Correção: 0,9. Coloquei todas as strings como 8888888888 e a última não foi detectada como palindromo.
 ;Building Instructions:
 ;ml /Cx /coff questao3.asm /link /SUBSYSTEM:console /out:questao3.exe kernel32.lib legacy_stdio_definitions.lib msvcrt.lib
             .686
@@ -12,7 +13,7 @@ msg1fmt     byte "%s%s", 0AH, 0
 msg1        byte " -> Palindromo. ", 0AH, 0
 msg2        byte " -> Nao Palindromo. ", 0AH, 0
 
-string      byte "araraarara repaperer 1235689745 2012369875 referrefer 0824554782 2102365897 8888888888 1234567891 deleveled", 0
+string      byte "8888888888 8888888888 8888888888 8888888888 8888888888 8888888888 8888888888 8888888888 8888888888 8888888888", 0
 
 t           byte 10 dup(?), 0
 e           sdword 10

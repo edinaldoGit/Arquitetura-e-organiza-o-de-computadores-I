@@ -99,6 +99,8 @@ fstp data
 *Resposta em código no arquivo "questao4.asm".*
 
 ## Questão 5) 
+> Correção: 0,0. Não achei essse arquivo, que deveria ser código em C.
+
 *Resposta em código no arquivo "questao5.asm".*
 
 ## Questão 6) 

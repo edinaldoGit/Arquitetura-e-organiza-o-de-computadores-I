@@ -1,11 +1,17 @@
 #  Resolução de exercícios - 10.12
 
 ##  Questão 1
+
+> Correção: 0,3
+
 A)
 ```
 Z = 8.
 ```
 B)
+
+> Correção: aqui _z_ é 8.
+
 ```
 Z = 5.
 ```
@@ -19,6 +25,9 @@ Z = 10.
 ```
 
 ## Questão 2
+
+> Correção: 0,5
+
 A) Notação pós fixa:   
 ```
 x y - z +

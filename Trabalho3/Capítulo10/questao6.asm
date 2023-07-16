@@ -1,3 +1,4 @@
+; Correção: 0,5
 ;   Building instructions:
 ;   ml /Cx /coff questao6.asm /link /SUBSYSTEM:console /out:questao6.exe kernel32.lib legacy_stdio_definitions.lib msvcrt.lib
             .686

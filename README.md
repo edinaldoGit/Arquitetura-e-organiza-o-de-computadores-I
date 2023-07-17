@@ -9,4 +9,4 @@
 | Trabalho 1    | 9,3           |
 | Trabalho 2    | 9,6           |
 | Trabalho 3    | 8,5           |
-| Média         | 9,1           |
+| Média         | 9,3           |
